@@ -11,13 +11,10 @@ The quadrant detection model segment a panoramic X-ray  into 4 quadratns(upper l
 Models were implemented using Detectron2 library. Here are some results from **Faster R-CNN** models:  
 - Quadrant detection:  
 **Evaluation results:** AP: 68.46, AP50: 84.37  
-**Predicted boxes visualisation:** 
 
-![quadrants](https://i.ibb.co/swmMbN7/download-5.png)
 - Tooth detection and numbering:  
 **Evaluation results:** AP: 72.74, AP50: 95.05  
-**Predicted boxes visualisation:** 
-  
-![quadrants](https://i.ibb.co/cJ90MTT/download.png)
+
+
 ### Dataset
 A private dataset collected and labeled by researchers at SBMU was used. The dataset consists of 1007 panoramic X-ray images with annotation.
