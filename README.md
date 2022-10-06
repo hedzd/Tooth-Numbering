@@ -20,4 +20,4 @@ Models were implemented using Detectron2 library. Here are some results from **F
   
 ![quadrants](https://i.ibb.co/cJ90MTT/download.png)
 ### Dataset
-A private dataset collected and labeled by SBMU researchers was used. The dataset consists of 1007 panoramic X-ray images with annotation.
+A private dataset collected and labeled by researchers at SBMU was used. The dataset consists of 1007 panoramic X-ray images with annotation.
