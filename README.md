@@ -2,10 +2,10 @@
 
 ### Project Description
 The goal of this project was numbering tooths on panoramic dental X-rays using object detection models. In order to obtain a satisfactory result, two main models were trained:
- - **Quadrant detection model:** A panoramic X-ray is fed into the quadrant detection model to be segmented into 4 quadrants(upper left, upper right, lower left, and lower right). Then, each detected quadrant is cropped with a margin. After that, left side images and bounding boxes were flipped. 
- - **Enumeration model**:
-Each cropped quadrant is directly fed into the enumeration model and the result can be merged afterwards.
+ - **Quadrant detection model**
+ - **Enumeration model**
 
+The quadrant detection model segment a panoramic X-ray  into 4 quadratns(upper left, upper right, lower left, and lower right). After that, each cropped quadrant is directly fed into the enumeration model and the result can be merged afterwards.
 
 ### Implementation and results
 Models were implemented using Detectron2 library. Here are some results from **Faster R-CNN** models:  
