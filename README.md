@@ -1,7 +1,7 @@
 # Tooth-Numbering
 
 ### Project Description
-The goal of this project was numbering tooths on panoramic dental X-rays using object detection models. In order to obtain a satisfactory result, two main models were trained:
+The goal of this project was numbering tooth on panoramic dental X-rays using object detection models. In order to obtain a satisfactory result, two main models were trained:
  - **Quadrant detection model**
  - **Enumeration model**
 
